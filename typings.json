@@ -1,0 +1,7 @@
+{
+  "globalDependencies": {
+    "core-js": "registry:dt/core-js#0.0.0+20160602141332",
+    "node": "registry:dt/node#6.0.0+20160621231320",
+    "selenium-webdriver": "registry:dt/selenium-webdriver#2.44.0+20160317120654"
+  }
+}

@@ -1,0 +1,12 @@
+<div class="component">
+
+    <h1 *ngIf="city">
+        Hello
+        {{'dear ' + city}}!
+    </h1>
+    <input [(ngModel)]="city" #cityName>
+    <button (click)="cityName.style.color='red'" [disabled]="!city">
+        Color me
+    </button>
+
+</div>

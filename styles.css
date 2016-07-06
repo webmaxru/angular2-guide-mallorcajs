@@ -1,0 +1,54 @@
+body {
+  margin: 2em;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #666;
+  background: #eee;
+}
+
+h1 {
+  color: #F5AF33;
+  font-size: 32px;
+  font-weight: normal;
+}
+h2 {
+  font-size: 24px;
+  font-weight: normal;
+}
+
+input, textarea, select {
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 0.5em 1em;
+}
+
+button {
+  background-color: #F5AF33;
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 3px;
+}
+button:hover {
+  background-color: #FFE06A;
+}
+button:disabled {
+  background-color: #eee;
+  color: #aaa;
+}
+
+.component {
+  padding: 1em 2em;
+  border-radius: 10px;
+  border: 1px dashed #ddd;
+  margin-bottom: 1em;
+  background: #fff;
+}
+
+nav a {
+  text-decoration: none;
+}
+nav a:visited, a:link {
+  color: #F5AF33;
+}
+nav a:hover {
+  color: #FFE06A;
+}
